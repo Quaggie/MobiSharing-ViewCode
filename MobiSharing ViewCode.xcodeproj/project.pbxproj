@@ -9,19 +9,21 @@
 /* Begin PBXBuildFile section */
 		F49A34E320595A00008B3B88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49A34E220595A00008B3B88 /* AppDelegate.swift */; };
 		F49A34E520595A00008B3B88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49A34E420595A00008B3B88 /* ViewController.swift */; };
-		F49A34E820595A00008B3B88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49A34E620595A00008B3B88 /* Main.storyboard */; };
 		F49A34EA20595A00008B3B88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49A34E920595A00008B3B88 /* Assets.xcassets */; };
 		F49A34ED20595A00008B3B88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49A34EB20595A00008B3B88 /* LaunchScreen.storyboard */; };
+		F49A34F520596241008B3B88 /* Motorcycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49A34F420596241008B3B88 /* Motorcycle.swift */; };
+		F49A34F72059628A008B3B88 /* MotorcycleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49A34F62059628A008B3B88 /* MotorcycleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F49A34DF20595A00008B3B88 /* MobiSharing ViewCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MobiSharing ViewCode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49A34E220595A00008B3B88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F49A34E420595A00008B3B88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F49A34E720595A00008B3B88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F49A34E920595A00008B3B88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F49A34EC20595A00008B3B88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F49A34EE20595A00008B3B88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F49A34F420596241008B3B88 /* Motorcycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motorcycle.swift; sourceTree = "<group>"; };
+		F49A34F62059628A008B3B88 /* MotorcycleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorcycleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +58,11 @@
 			children = (
 				F49A34E220595A00008B3B88 /* AppDelegate.swift */,
 				F49A34E420595A00008B3B88 /* ViewController.swift */,
-				F49A34E620595A00008B3B88 /* Main.storyboard */,
 				F49A34E920595A00008B3B88 /* Assets.xcassets */,
 				F49A34EB20595A00008B3B88 /* LaunchScreen.storyboard */,
 				F49A34EE20595A00008B3B88 /* Info.plist */,
+				F49A34F420596241008B3B88 /* Motorcycle.swift */,
+				F49A34F62059628A008B3B88 /* MotorcycleTableViewCell.swift */,
 			);
 			path = "MobiSharing ViewCode";
 			sourceTree = "<group>";
@@ -125,7 +128,6 @@
 			files = (
 				F49A34ED20595A00008B3B88 /* LaunchScreen.storyboard in Resources */,
 				F49A34EA20595A00008B3B88 /* Assets.xcassets in Resources */,
-				F49A34E820595A00008B3B88 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F49A34F72059628A008B3B88 /* MotorcycleTableViewCell.swift in Sources */,
 				F49A34E520595A00008B3B88 /* ViewController.swift in Sources */,
+				F49A34F520596241008B3B88 /* Motorcycle.swift in Sources */,
 				F49A34E320595A00008B3B88 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,14 +148,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F49A34E620595A00008B3B88 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F49A34E720595A00008B3B88 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F49A34EB20595A00008B3B88 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
